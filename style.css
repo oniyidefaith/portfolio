@@ -1,0 +1,258 @@
+*{
+  margin: 0%;
+  border: 0mm;
+}
+:root{
+  --green-black: #2a403d;
+  --background-color: #0B0C10;
+  --background-light: #1F2833;
+  --close-white: #e3e0cf;
+  --like-white: #dddfd4;
+  --nice-white: #f7f4ef;
+}
+body{
+  font-family: Roboto;
+  background-color: var(--background-light);
+  margin-left: 0%;
+  margin-right: 20%;
+}
+
+nav, nav ul{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  padding: 20px;
+  text-transform: capitalize;
+}
+nav li{
+  color: var(--nice-white);
+  font-size: 20px;
+  margin-right: 50%;
+}
+nav ul a{
+  display: flex;
+  margin-left: 20%;
+  text-decoration: none;
+  color: var(--nice-white);
+  font-size: 15px;
+}
+nav ul a:hover{
+color: #06ffda;
+}
+#intro{
+margin-top: 20%;
+color:var(--nice-white);
+font-size: 12pt;
+word-wrap: break-word;
+display: flex;
+}
+#intro-sub:hover{
+color: #24e4c7;
+opacity: 100%;
+}
+b{
+font-size: 40pt;
+}
+#box1{
+margin-top: 13%;
+top: 15%;
+font-size: 25pt;
+color: #32524d;
+margin-left: -65%;
+}
+
+#img{
+margin-left: 150%;
+margin-top: -50%;
+width: 150px;
+height: 200px;
+padding: 2px;
+overflow: hidden;
+border-radius: 20%;
+background: circle;
+transition: ease-out 0.5s;
+}
+#about{
+font-family: montserrat;
+margin-top: 65%;
+margin-left: -40%;
+color: var(--nice-white);
+
+}
+h1{
+padding-right: 0%;
+font-size: 25pt;
+color: #06ffda;
+margin-left: -51;
+}
+#topic1{
+  margin-top: -100%;
+}
+#new{
+margin-top: 40%;
+padding-right: 30%;
+font-size: 25pt;
+color: #06ffda;
+}
+#topic1{
+padding-right: 20%;
+font-size: 25pt;
+color: #06ffda;
+margin-top: -7%;
+margin-bottom: 2%;
+margin-left: 12%
+}
+#me{
+margin-top:0%;
+}
+#hashtag{
+opacity: 15%;
+}
+#flex{
+display: -webkit-flex;
+display: flex;
+margin-top: -30%;
+margin-left: 10%;
+width: 100%;
+}
+#card{
+  margin-top: 30%;
+  background-color: #282e36;
+  margin-right: 20%;
+}
+#card0{
+  margin-top: 30%;
+  background-color: #282e36;
+}
+#connect{
+color: #06ffda;
+text-decoration: none;
+}
+#last{
+margin-top: 1%;
+margin-bottom: 10%;
+}
+#form{
+}
+#conme{
+margin-top: 10%;
+margin-left: 2%;
+color: #06ffda;
+font-size: 25pt;
+font-family: Roboto;
+}
+#words{
+margin-top: 1%;
+margin-right: 50%;
+color: var(--nice-white);
+font-size: 15pt;
+font-family: Roboto;
+}
+#name{
+background-color:  #2a333fbb;
+height: 25pt;
+width: 25%;
+margin-bottom: 12pt;
+font-family: roboto;
+}
+#message{
+word-wrap: break-word;
+background-color:  #2a333fbb;
+height: 200pt;
+width: 25%;
+margin-bottom: 12pt;
+font-family: roboto;
+}
+#drop{
+color: rgb(107, 107, 107);
+background-color: #2a333fbb;
+width: 25%;
+height: 25pt;
+}
+#location{
+margin-top: -100%;
+}
+#register{
+margin-top: 10%;
+}
+#hello{
+color: var(--nice-white);
+margin-top: 2%;
+}
+#middle{
+align-items: center;
+  background-color:  #2a333fbb;
+height: 25pt;
+width: 25%;
+margin-bottom: 12pt;
+font-family: roboto;
+}
+#class{
+display: flex;
+}
+#map{
+margin-left: 2%;
+}
+#hey input{
+height: 25pt;
+width: 70%;
+}
+#droped{
+color: rgb(107, 107, 107);
+background-color: #2a333fbb;
+width: 25%;
+height: 25pt;
+}
+.material-symbols-outlined {
+margin-left: 10%;
+color: #2a333fbb;
+font-size: 40vh;
+font-variation-settings:
+'FILL' 0,
+'wght' 30,
+'GRAD' 0,
+'opsz' 48,
+}
+.face1{
+display: flex;
+}
+#sub-face{
+margin-left: 50%;
+width: 500vh;
+}
+button{
+background-color: #1F2833;
+color: #4e4f50;
+opacity: 15;
+font-style: italic;
+border: #06ffda solid 1px;
+height: 40px;
+width: 80px;
+font-family: Roboto;
+}
+button:hover{
+color: #7a7b7c;
+opacity: 15;
+background-color: #06ffda;
+-webkit-transition: background-color 1000ms linear;
+-moz-transition: background-color 1000ms linear;
+-o-transition: background-color 1000ms linear;
+-ms-transition: background-color 1000ms linear;
+transition: background-color 1000ms linea
+}
+#login{
+margin-left: 50%;
+margin-top: 12%;
+padding: 51px ;
+width: 150vh;
+
+}
+#ok{
+color: var(--nice-white);
+}
+#linked{
+color: #06ffda;
+}
